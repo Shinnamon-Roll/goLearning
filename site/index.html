@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Go Learning — เรียน Go จากศูนย์สู่ฮีโร่</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
+  <link href="css/style.css?v=4" rel="stylesheet">
+</head>
+<body>
+  <!-- Mobile hamburger -->
+  <button class="hamburger" id="hamburger" aria-label="เปิดเมนู">
+    <span></span><span></span><span></span>
+  </button>
+
+  <!-- Sidebar overlay for mobile -->
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-logo">
+        <i data-lucide="graduation-cap" class="icon-md"></i>
+      </div>
+      <div>
+        <h2>Go Learning</h2>
+        <p class="sidebar-subtitle">จากศูนย์สู่ฮีโร่</p>
+      </div>
+    </div>
+    <nav class="sidebar-nav" id="sidebarNav">
+      <!-- Rendered by app.js -->
+    </nav>
+  </aside>
+
+  <!-- Main content -->
+  <main class="content" id="content">
+    <div class="welcome" id="welcome">
+      <div class="welcome-hero">
+        <div class="welcome-icon"><i data-lucide="graduation-cap" style="width:48px;height:48px;"></i></div>
+        <h1>เรียน Go จากศูนย์สู่ฮีโร่</h1>
+        <p>เลือกบทเรียนจากเมนูด้านซ้ายเพื่อเริ่มต้น</p>
+      </div>
+      <div class="welcome-cards" id="welcomeCards">
+        <!-- Rendered by app.js -->
+      </div>
+    </div>
+    <div class="lecture-content" id="lectureContent" style="display:none;">
+      <!-- Rendered by app.js -->
+    </div>
+  </main>
+
+  <!-- Toast notification -->
+  <div id="toast" class="toast"></div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.32.7/ace.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-go.min.js"></script>
+  <script src="https://unpkg.com/lucide@0.372.0/dist/umd/lucide.min.js"></script>
+  <script src="js/lectures.js?v=3"></script>
+  <script src="js/app.js?v=3"></script>
+</body>
+</html>
